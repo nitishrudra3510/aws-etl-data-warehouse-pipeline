@@ -21,9 +21,9 @@ def transform_products(df):
         if c in df:
             df[c] = df[c].fillna(0).astype('Int64')
     return df
-
+##
 def transform_orders(df):
-    # parse datetimes (include columns containing 'timestamp' or 'date' or ending with '_at')
+    # 
     ts_cols = [c for c in df.columns if ('timestamp' in c) or ('date' in c) or c.endswith('_at')]
     for c in ts_cols:
         df[c] = pd.to_datetime(df[c], errors='coerce')
