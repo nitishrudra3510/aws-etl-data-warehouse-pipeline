@@ -1,5 +1,5 @@
 Architecture overview
-=====================
+
 
 Data flow (high-level):
 

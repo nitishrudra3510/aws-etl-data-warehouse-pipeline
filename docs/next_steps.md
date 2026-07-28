@@ -1,5 +1,5 @@
 Next steps (recommended)
-=======================
+======================
 
 1. Run `python3 scripts/transform_local.py` to validate transformation logic and produce `processed/*.parquet` files locally.
 2. Upload `processed/` parquet files to S3 `processed/` prefix.

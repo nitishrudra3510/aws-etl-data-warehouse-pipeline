@@ -3,7 +3,7 @@
 Adapt this template into an AWS Glue job. Replace SparkSession with GlueContext/Job init as needed.
 """
 def main():
-    # TODO: convert to Glue job using GlueContext and DynamicFrame
+    # TODO: 
     pass
 
 if __name__ == '__main__':
